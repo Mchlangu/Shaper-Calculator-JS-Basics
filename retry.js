@@ -36,4 +36,10 @@ switch (operator) {
         break;
 }
 
+var number = "55,58,10,11";
+var numArr = number.split(",");
+
+console.log(numArr[1]);
+
+
 console.log(results);
