@@ -36,5 +36,5 @@ const prompt = require('prompt-sync')()
     }
     
     for (let i = 0; i < students; i++) {
-        console.log(`${stuNames[i]} has ${stuStatus[i]} . With an average of: ${stuAverage[i]} \n`);
+        console.log(`${stuNames[i]} has ${stuStatus[i]}  With an average of: ${stuAverage[i].toFixed(0)} \n`);
     }
